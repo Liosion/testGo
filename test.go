@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"tyler-smith/go-bip32"
-	"tyler-smith/go-bip39"
+	"github.com/tyler-smith/go-bip32"
+	"github.com/tyler-smith/go-bip39"
 )
 
 func NewKeyManager(bitSize int, mnemonic string) (*KeyManager, error) {
